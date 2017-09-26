@@ -99,6 +99,48 @@
     </div>
     <!-- End #about -->
 
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="July 2017">
+                <h3>VR Visio</h3>
+                <h4>Unreal Engine programmer</h4>
+                <p>
+                    I was working on a VR game in UE4, mostly dealing with networking.
+                </p>
+            </div>
+            <div data-date="August 2017">
+                <h3>Freelance work</h3>
+                <h4>Database system for historic records</h4>
+                <p>
+                    A database package (specialized input fields in JavaFX, data-storage fields, query helpers) and an application for inputting and searching through a database of historic birthrecords.
+                </p>
+            </div>
+            <div data-date="2015">
+                <h3>Od Siebie Dla Innych foundation</h3>
+                <h4>Backend developer, technical consultant</h4>
+                <p>
+                    I was responsible for development and administration of a charity auction website with backend written in Python + Flask running on Google App Engine. Frontend used Bootstrap.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Warsaw</h3>
+            <span class="education-date">Oct 2016 - Now</span>
+            <h4>Bachelor of Computer Science</h4>
+            <p>
+                (In progress)
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
     <div id="projects" class="background-alt">
         <h2 class="heading">Featured Projects</h2>
         <div class="container">
@@ -137,51 +179,108 @@
                 <!-- End .project -->
             </div>
         </div>
-        <a href="more.html" class="btn-rounded-blue">See more projects</a>
+        <a class="btn-rounded-blue" id="view-more-projects" href="#">View More Projects</a>
+        <div id="more-projects" class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/voxel.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Voxels</h3>
+                    <p>
+                        I've been experimenting with voxel rendering for a long time. Most of the experiments were in OGRE engine (C++): cubic voxels in a sparse octree, smooth voxels on a grid. I experimented with raytracing signed distance fields in GLSL and implemented cubic
+                        voxels in pure OpenGL as well as Unreal Engine 4 using Procedural Mesh Component.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=zY4uS9KYoZ0">Showcase of one of the iterations</a>
+                    <br>
+                    <a href="https://github.com/programistagd/raytracing-test-distancefield">Repository of the SDF experiment</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/mmotest.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>mmotest</h3>
+                    <p>
+                        A simple experimental multiplayer game in HTML5/JS and Node.JS. The project is suspended, but I plan to rewrite it in other language (Kotlin?) and use it for experiments with NPC AI programming.
+                    </p>
+                    <a href="https://github.com/programistagd/mmotest">View repository</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/bible.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>DailyBible for Android</h3>
+                    <p>
+                        An Android app that can remind you of everyday lecture and keep track of your progress in each of the books. Not released due to licensing (may change in the future).
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/smalltable.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>SmallTable</h3>
+                    <p>
+                        A database package (specialized input fields in JavaFX, data-storage fields, query helpers) written in Java using some functional patterns.
+                    </p>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/weather.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Weather Widget</h3>
+                    <p>
+                        A simple app in JavaFX using ReactiveX streams that fetches latest weather data from various sources.
+                    </p>
+                    <a href="https://github.com/programistagd/WeatherWidget">View repository</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/poly.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Polynomial calculator in C</h3>
+                    <p>
+                        A library and console app for operations on multivariate polynomials using a sparse representation. Allows for addition, multiplication, composition and evaluation. Written as an university assignment, mostly about low-level memory management.
+                    </p>
+                    <a href="https://github.com/programistagd/Sparse-Multivariate-Polynomials">View repository</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+        </div>
+    </div>
     </div>
     <!-- End #projects -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Warsaw</h3>
-            <span class="education-date">Oct 2016 - Now</span>
-            <h4>Bachelor of Computer Science</h4>
-            <p>
-                (In progress)
-            </p>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="July 2017">
-                <h3>VR Visio</h3>
-                <h4>Unreal Engine programmer</h4>
-                <p>
-                    I was working on a VR game in UE4, mostly dealing with networking.
-                </p>
-            </div>
-            <div data-date="August 2017">
-                <h3>Freelance work</h3>
-                <h4>Database system for historic records</h4>
-                <p>
-                    A database package (specialized input fields in JavaFX, data-storage fields, query helpers) and an application for inputting and searching through a database of historic birthrecords.
-                </p>
-            </div>
-            <div data-date="2015">
-                <h3>Od Siebie Dla Innych foundation</h3>
-                <h4>Backend developer, technical consultant</h4>
-                <p>
-                    I was responsible for development and administration of a charity auction website with backend written in Python + Flask running on Google App Engine. Frontend used Bootstrap.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
