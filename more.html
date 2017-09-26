@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radosław Waśko</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        .btn-rounded-blue {
+            display: inline-block;
+            color: #3498db;
+            padding: 15px 25px;
+            border: 3px solid #3498db;
+            border-radius: 30px;
+            transition: .5s ease all
+        }
+        
+        .btn-rounded-blue:hover {
+            color: #fff;
+            background: #3498db;
+            text-decoration: none
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="index.html">Go back</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Other Projects</h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/voxel.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Voxels</h3>
+                        <p>
+                            I've been experimenting with voxel rendering for a long time. Most of the experiments were in OGRE engine (C++): cubic voxels in a sparse octree, smooth voxels on a grid. I experimented with raytracing signed distance fields in GLSL and implemented cubic
+                            voxels in pure OpenGL as well as Unreal Engine 4 using Procedural Mesh Component.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=zY4uS9KYoZ0">Showcase of one of the iterations</a>
+                        <a href="https://github.com/programistagd/raytracing-test-distancefield">Repository of SDF experiment</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/mmotest.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>mmotest</h3>
+                        <p>
+                            A simple experimental multiplayer game in HTML5/JS and Node.JS. The project is suspended, but I plan to rewrite it in other language (Kotlin?) and use it for experiments with NPC AI programming.
+                        </p>
+                        <a href="https://github.com/programistagd/mmotest">View repository</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/weather.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Weather Widget</h3>
+                        <p>
+                            A simple app in JavaFX using ReactiveX streams that fetches latest weather data from various sources.
+                        </p>
+                        <a href="https://github.com/programistagd/WeatherWidget">View repository</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large no-image">
+                    <div class="project-info">
+                        <h3>Aukcja Życia</h3>
+                        <p>
+                            A charity auction website with backend written in Python + Flask running on Google App Engine. Frontend used Bootstrap.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/poly.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Polynomial calculator in C</h3>
+                        <p>
+                            A library and console app for operations on multivariate polynomials using a sparse representation. Allows for addition, multiplication, composition and evaluation. Written as an university assignment, mostly about low-level memory management.
+                        </p>
+                        <a href="https://github.com/programistagd/Sparse-Multivariate-Polynomials">View repository</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2017 Radosław Waśko
+                        <br>
+                        <a href="https://github.com/RyanFitzgerald/devportfolio">Template</a> <a href="LICENSE.md">(license)</a>
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/programistagd" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
+
+</html>
